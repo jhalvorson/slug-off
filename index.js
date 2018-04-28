@@ -5,7 +5,7 @@ const slugOff = (string = '', separator = '-') => {
   }
 
   console.warn('No title or separator was provided to slugOff 😢');
-  return '';
+  return;
 }
 
 module.exports = slugOff
