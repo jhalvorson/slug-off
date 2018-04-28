@@ -1,0 +1,28 @@
+{
+  "name": "slug-off",
+  "version": "0.0.1",
+  "description": "Turn strings into slugs, eh?",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "repository": "https://github.com/jhalvorson/slug-off.git",
+  "author": "Jamie Halvorson",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "prepublish": "rollup -c"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
