@@ -3,7 +3,7 @@ const slugOff = (string = '', separator = '-') => {
     const split = string.split(' ');
     return split.join(separator).toLowerCase();
   }
-  return false;
+  return '';
 }
 
 module.exports = slugOff

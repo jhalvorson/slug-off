@@ -16,4 +16,4 @@ Now import it into your file:
 
 `import slugOff from 'slug-off';`
 
-You can now run `slugOff('my Awesome line oF t3xt Bruh')`.
+You can now run `slugOff('my Awesome line oF t3xt Bruh')`. The `slugOff` function takes two parameters: string, separator. If you're a monster and want to use underscores for your slugs you can run `slugOff('why would I do this?', '_');`,
