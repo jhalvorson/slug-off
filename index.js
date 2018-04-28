@@ -3,6 +3,8 @@ const slugOff = (string = '', separator = '-') => {
     const split = string.split(' ');
     return split.join(separator).toLowerCase();
   }
+
+  console.warn('No title or separator was provided to slugOff 😢');
   return '';
 }
 
